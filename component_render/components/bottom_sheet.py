@@ -1,8 +1,10 @@
 from typing import Dict, Any
+from .base_component import BaseComponent
 
 
-class BottomSheet:
+class BottomSheet(BaseComponent):
     def __init__(self, type: str):
+        super().__init__()
         self.type = type
         self.data = None
     

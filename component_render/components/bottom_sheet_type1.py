@@ -1,6 +1,4 @@
 from .bottom_sheet import BottomSheet
-from .bottom_sheet_header import BottomSheetHeader
-from .bottom_sheet_footer import BottomSheetFooter
 
 
 class BottomSheetType1(BottomSheet):
@@ -10,7 +8,7 @@ class BottomSheetType1(BottomSheet):
         self.items = []
         self.footer = None
     
-    def set_header(self, header: BottomSheetHeader):
+    def set_header(self, header):
         self.header = header
         return self
     
@@ -18,6 +16,6 @@ class BottomSheetType1(BottomSheet):
         self.items = items
         return self
     
-    def set_footer(self, footer: BottomSheetFooter):
+    def set_footer(self, footer):
         self.footer = footer
         return self 
