@@ -1,24 +1,36 @@
 from typing import Optional
+from ..properties.color_type import ColorType
 from .label import Label
-from .color import Color
 from .base_component import BaseComponent
 
 
 class Tag(BaseComponent):
     def __init__(self):
         super().__init__()
-        self.label = None
-        self.bgColor = None
-        self.borderRadius = None
-    
-    def set_label(self, label: Label):
-        self.label = label
-        return self
-    
-    def set_bg_color(self, bgColor: Color):
-        self.bgColor = bgColor
-        return self
-    
-    def set_border_radius(self, borderRadius: int):
-        self.borderRadius = borderRadius
-        return self 
+        self._label = None
+        self._bgColor = None 
+        self._borderRadius = None
+
+    @property
+    def label(self):
+        return self._label
+
+    @label.setter
+    def label(self, value: Label):
+        self._label = value
+
+    @property
+    def bgColor(self):
+        return self._bgColor
+
+    @bgColor.setter
+    def bgColor(self, value: ColorType):
+        self._bgColor = value
+
+    @property
+    def borderRadius(self):
+        return self._borderRadius
+
+    @borderRadius.setter
+    def borderRadius(self, value: int):
+        self._borderRadius = value 

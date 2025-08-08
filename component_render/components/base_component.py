@@ -1,10 +1,17 @@
 from ..actions.action import ClickAction
+from ..properties.base_property import BaseProperty
 
-
-class BaseComponent:
+class BaseComponent(BaseProperty):
     def __init__(self):
-        self.clickAction = None
-    
-    def set_click_action(self, clickAction: ClickAction):
-        self.clickAction = clickAction
-        return self 
+        self._clickAction = None
+
+    @property
+    def clickAction(self):
+        return self._clickAction
+
+    @clickAction.setter
+    def clickAction(self, value: ClickAction):
+        self._clickAction = value
+
+   
+   

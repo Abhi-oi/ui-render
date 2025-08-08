@@ -1,17 +1,17 @@
 from ..components.label import Label
-from ..components.base_component import BaseComponent
+from .base_snippet import BaseSnippet
+from .snippet_type import SnippetType
 
-
-class SectionHeaderSnippet(BaseComponent):
+class SectionHeaderSnippet(BaseSnippet):
     def __init__(self):
-        super().__init__()
-        self.title = None
-        self.subtitle = None
-    
-    def set_title(self, title: Label):
-        self.title = title
-        return self
-    
-    def set_subtitle(self, subtitle: Label):
-        self.subtitle = subtitle
-        return self 
+        super().__init__(type=SnippetType.SECTION_HEADER_SNIPPET.value, data={})
+        self._title = None
+
+    @property
+    def title(self):
+        return self._title
+
+    @title.setter
+    def title(self, value: Label):
+        self._title = value
+        self._data['title'] = value 

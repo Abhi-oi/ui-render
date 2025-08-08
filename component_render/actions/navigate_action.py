@@ -13,5 +13,21 @@ class NavigateAction(BaseClickAction):
             'params': params or {}
         }
         super().__init__(type='NAVIGATE', data=data)
-        self.screen = screen
-        self.params = params or {} 
+        self._screen = screen
+        self._params = params or {}
+
+    @property
+    def screen(self):
+        return self._screen
+
+    @screen.setter
+    def screen(self, value: str):
+        self._screen = value
+
+    @property
+    def params(self):
+        return self._params
+
+    @params.setter
+    def params(self, value: Optional[Dict[str, Any]]):
+        self._params = value 

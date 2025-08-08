@@ -1,16 +1,25 @@
 from typing import Optional
-from .color import Color
+from ..properties.color_type import ColorType
+from .base_component import BaseComponent
 
-
-class Card:
+class Card(BaseComponent):
     def __init__(self):
-        self.bgColor = None
-        self.borderColor = None
-    
-    def set_bg_color(self, bgColor: Color):
-        self.bgColor = bgColor
-        return self
-    
-    def set_border_color(self, borderColor: Color):
-        self.borderColor = borderColor
-        return self 
+        super().__init__()
+        self._bgColor = None 
+        self._borderColor = None  
+
+    @property
+    def bgColor(self):
+        return self._bgColor
+
+    @bgColor.setter
+    def bgColor(self, value: ColorType):
+        self._bgColor = value
+
+    @property
+    def borderColor(self):
+        return self._borderColor
+
+    @borderColor.setter
+    def borderColor(self, value: ColorType):
+        self._borderColor = value 

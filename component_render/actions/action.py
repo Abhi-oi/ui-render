@@ -8,5 +8,4 @@ from .add_to_form_key_action import AddToFormKeyAction
 from .show_toast_action import ShowToastAction
 from .refresh_pages_action import RefreshPagesAction
 
-# For backward compatibility
 ClickAction = BaseClickAction 

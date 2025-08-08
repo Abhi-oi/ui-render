@@ -1,22 +1,38 @@
-from ..components.color import Color
-from ..components.base_component import BaseComponent
+from ..properties.color_type import ColorType
+from .base_snippet import BaseSnippet
+from .snippet_type import SnippetType
 
 
-class SeparatorSnippet(BaseComponent):
+class SeparatorSnippet(BaseSnippet):
     def __init__(self):
-        super().__init__()
-        self.thickness = None
-        self.marginVertical = None
-        self.color = None
-    
-    def set_thickness(self, thickness: int):
-        self.thickness = thickness
-        return self
-    
-    def set_margin_vertical(self, marginVertical: int):
-        self.marginVertical = marginVertical
-        return self
-    
-    def set_color(self, color: Color):
-        self.color = color
-        return self 
+        super().__init__(type=SnippetType.SEPARATOR_SNIPPET.value, data={})
+        self._thickness = None
+        self._marginVertical = None
+        self._color = None
+
+    @property
+    def thickness(self):
+        return self._thickness
+
+    @thickness.setter
+    def thickness(self, value: int):
+        self._thickness = value
+        self._data['thickness'] = value
+
+    @property
+    def marginVertical(self):
+        return self._marginVertical
+
+    @marginVertical.setter
+    def marginVertical(self, value: int):
+        self._marginVertical = value
+        self._data['marginVertical'] = value
+
+    @property
+    def color(self):
+        return self._color
+
+    @color.setter
+    def color(self, value: ColorType):
+        self._color = value
+        self._data['color'] = value.value if value else None 

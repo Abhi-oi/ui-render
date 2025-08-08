@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57c3288c-4f1c-4e5e-a3b7-aaa1ad2e0d7a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/component_render/actions/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/add_to_form_key_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/add_to_form_key_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/api_call_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/api_call_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/base_click_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/base_click_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/navigate_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/navigate_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/open_bottom_sheet_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/open_bottom_sheet_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/refresh_pages_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/refresh_pages_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/actions/show_toast_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/actions/show_toast_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/base_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/base_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/bottom_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/bottom_sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/bottom_sheet_type1.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/bottom_sheet_type1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/font.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/font.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/icon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/progress_indicator.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/progress_indicator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/size.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/size.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/components/weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/components/weight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/bottom_sheet_footer_snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/bottom_sheet_footer_snippet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/bottom_sheet_header_snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/bottom_sheet_header_snippet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/group_snippet_type1.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/group_snippet_type1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/info_snippet_type1.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/info_snippet_type1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/info_snippet_type2.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/info_snippet_type2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/info_snippet_type3.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/info_snippet_type3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/page_header_snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/page_header_snippet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/section_header_snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/section_header_snippet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_render/snippets/separator_snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_render/snippets/separator_snippet.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="30pa15PAAPCqSdq4u58SKT9YTjz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ui-render" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57c3288c-4f1c-4e5e-a3b7-aaa1ad2e0d7a" name="Changes" comment="" />
+      <created>1754326749506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754326749506</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

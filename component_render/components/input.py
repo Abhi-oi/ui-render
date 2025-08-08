@@ -6,33 +6,57 @@ from .base_component import BaseComponent
 class Input(BaseComponent):
     def __init__(self):
         super().__init__()
-        self.type = None
-        self.placeholder = None
-        self.value = None
-        self.label = None
-        self.required = None
-        self.disabled = None
-    
-    def set_type(self, type: str):
-        self.type = type
-        return self
-    
-    def set_placeholder(self, placeholder: str):
-        self.placeholder = placeholder
-        return self
-    
-    def set_value(self, value: str):
-        self.value = value
-        return self
-    
-    def set_label(self, label: Label):
-        self.label = label
-        return self
-    
-    def set_required(self, required: bool):
-        self.required = required
-        return self
-    
-    def set_disabled(self, disabled: bool):
-        self.disabled = disabled
-        return self 
+        self._type = None
+        self._placeholder = None
+        self._value = None
+        self._label = None
+        self._required = None
+        self._disabled = None
+
+    @property
+    def type(self):
+        return self._type
+
+    @type.setter
+    def type(self, value: str):
+        self._type = value
+
+    @property
+    def placeholder(self):
+        return self._placeholder
+
+    @placeholder.setter
+    def placeholder(self, value: str):
+        self._placeholder = value
+
+    @property
+    def value(self):
+        return self._value
+
+    @value.setter
+    def value(self, value: str):
+        self._value = value
+
+    @property
+    def label(self):
+        return self._label
+
+    @label.setter
+    def label(self, value: Label):
+        self._label = value
+
+    @property
+    def required(self):
+        return self._required
+
+    @required.setter
+    def required(self, value: bool):
+        self._required = value
+
+    @property
+    def disabled(self):
+        return self._disabled
+
+    @disabled.setter
+    def disabled(self, value: bool):
+        self._disabled = value

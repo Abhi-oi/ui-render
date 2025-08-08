@@ -1,28 +1,53 @@
 from typing import Optional
 from .base_component import BaseComponent
 
+from .constant import ContainerShape
 
 class Image(BaseComponent):
     def __init__(self, src: str):
         super().__init__()
-        self.src = src
-        self.width = None
-        self.height = None
-        self.aspectRatio = None
-        self.containerShape = None
-    
-    def set_width(self, width: int):
-        self.width = width
-        return self
-    
-    def set_height(self, height: int):
-        self.height = height
-        return self
-    
-    def set_aspect_ratio(self, aspectRatio: float):
-        self.aspectRatio = aspectRatio
-        return self
-    
-    def set_container_shape(self, containerShape: str):
-        self.containerShape = containerShape
-        return self 
+        self._src = src
+        self._width = None
+        self._height = None
+        self._aspectRatio = None
+        self._containerShape = None
+
+    @property
+    def src(self):
+        return self._src
+
+    @src.setter
+    def src(self, value: str):
+        self._src = value
+
+    @property
+    def width(self):
+        return self._width
+
+    @width.setter
+    def width(self, value: int):
+        self._width = value
+
+    @property
+    def height(self):
+        return self._height
+
+    @height.setter
+    def height(self, value: int):
+        self._height = value
+
+    @property
+    def aspectRatio(self):
+        return self._aspectRatio
+
+    @aspectRatio.setter
+    def aspectRatio(self, value: float):
+        self._aspectRatio = value
+
+    @property
+    def containerShape(self):
+        return self._containerShape
+
+    @containerShape.setter
+    def containerShape(self, value: ContainerShape):
+        self._containerShape = value 
